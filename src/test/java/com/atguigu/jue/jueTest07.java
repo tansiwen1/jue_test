@@ -45,6 +45,7 @@ public class jueTest07 {
                 System.out.println(Thread.currentThread().getName()+"\t"+"B锁希望获得A锁");
                 // 休息几秒钟
                 try{
+                    System.out.println("11");
                     TimeUnit.SECONDS.sleep(10);
                 } catch(Exception e){
                     e.printStackTrace();
