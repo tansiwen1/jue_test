@@ -33,9 +33,8 @@ class Ticket {
 
 public class jueTest {
     public static void main(String[] args) {
-        System.out.println("11111");
-        System.out.println("aaaaaaaaa");
-        System.out.println("bbbbbbbbbbb");
+        System.out.println("1sds11");
+        System.out.println("acadfsaf");
         Ticket ticket = new Ticket();
         new Thread(() -> { for (int i = 1; i <= 31; i++) ticket.sale(); }, "A").start();
         new Thread(() -> { for (int i = 1; i <= 31; i++) ticket.sale(); }, "B").start();
