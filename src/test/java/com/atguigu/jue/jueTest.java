@@ -36,6 +36,7 @@ public class jueTest {
         System.out.println("1sds11");
         System.out.println("acadfsaf");
         System.out.println("123456");
+        System.out.println("你是傻逼");
         Ticket ticket = new Ticket();
         new Thread(() -> { for (int i = 1; i <= 31; i++) ticket.sale(); }, "A").start();
         new Thread(() -> { for (int i = 1; i <= 31; i++) ticket.sale(); }, "B").start();
